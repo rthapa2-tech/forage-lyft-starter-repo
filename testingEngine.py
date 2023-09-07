@@ -12,7 +12,7 @@ def engine_needs_service(engine):
 
 
 engine1 = WilloughbyEngine(100000, 45000)
-engine2 = SternmanEngine(False)
+engine2 = SternmanEngine(True)
 engine3 = CapuletEngine(100000, 75000)
 
 engine_needs_service(engine1)
