@@ -13,4 +13,6 @@ battery1 = SpindlerBattery(datetime.date(2023,9,7), datetime.date(2020,9,6))
 battery2 = NubbinBattery(datetime.date(2023,9,7), datetime.date(2020,9,6))
 
 battery_needs_service(battery1)
+print("Expected: yes")
 battery_needs_service(battery2)
+print("Expected: no")

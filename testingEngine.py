@@ -13,8 +13,11 @@ def engine_needs_service(engine):
 
 engine1 = WilloughbyEngine(100000, 45000)
 engine2 = SternmanEngine(True)
-engine3 = CapuletEngine(100000, 75000)
+engine3 = CapuletEngine(100000, 45000)
 
 engine_needs_service(engine1)
+print("Expected: no")
 engine_needs_service(engine2)
+print("Expected: yes")
 engine_needs_service(engine3)
+print("Expected: yes")
